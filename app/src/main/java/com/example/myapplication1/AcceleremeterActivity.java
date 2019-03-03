@@ -56,6 +56,7 @@ public class AcceleremeterActivity extends Activity implements SensorEventListen
         super.onPause();
         sensorManager.unregisterListener(this, mSensor);
         v.cancel();
+        //clean this file!
     }
 
     @Override
